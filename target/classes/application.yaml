@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nestify-backend-core
+  data:
+    mongodb:
+      #      uri: mongodb://mongo:moRVZYksCAjqtSarWmRLtDvguKDxxhWl@roundhouse.proxy.rlwy.net:17464/adverts
+      uri: mongodb+srv://advertorikus:lKSI94DhgTAYY0br@cluster0.kmzu6yr.mongodb.net/adverts?retryWrites=true&w=majority&appName=Cluster0
+server:
+#  port: 8080
+  port: ${PORT}
