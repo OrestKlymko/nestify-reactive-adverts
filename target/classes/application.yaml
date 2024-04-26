@@ -1,6 +1,6 @@
 spring:
   application:
-    name: nestify-backend-core
+    name: nestify-backend-core-react
   data:
     mongodb:
       #      uri: mongodb://mongo:moRVZYksCAjqtSarWmRLtDvguKDxxhWl@roundhouse.proxy.rlwy.net:17464/adverts
